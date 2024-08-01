@@ -3,15 +3,12 @@
 **Company:** EXTION INFOTECH
 
 
-**ID:**
-
-
 **Domain Name:** WEB DEVELOPMENT 
 
 
 **DURATION:** 27th June to 28th August 2024
 
-**MENTOR:** 
+**MENTOR:** YASH GUPTA
 
 
 
