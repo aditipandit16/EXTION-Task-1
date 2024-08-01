@@ -1,0 +1,1655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leisure Clothing</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/aaeb72b20a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" width="125px">
+                </a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="productcart.html"><img src="images/cartbag.png" width="30px" height="30px"></a>
+            <img src="images/menu.png" class="menu-icon" 
+            onclick="menutoggle()">
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <h1>Give Your Workout<br>A New Style!</h1>
+                <p>Success isn't always aboout greatness. It's about Consistancy.<br> Consistant hard work gains success. Greatness will come.</p>
+                <a href="product.html" class="btn">Explore Now &#8594;</a>
+            </div>
+            <div class="col-2">
+                <img src="images/woman bg.png">
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!--------------------featuredcategories--------------------------->
+  <div class="categories">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <img src="images/jacket.png">
+            </div>
+            <div class="col-3">
+                <img src="images/shoes.png">
+            </div>
+            <div class="col-3">
+                <img src="images/full1.png">
+            </div>
+        </div>
+    </div>
+   
+  </div>
+ <!-------------------------------featured product----------------------------------->
+ <div class="small-container">
+    <h2 class="title">Featured Products</h2>
+    <div class="row">
+        <div class="col-4">
+            <a href="productdetail.html"><img src="images/Reebok Shoes .png"></a>
+            <a href="productdetail.html"><h4>Reebok Cream Shoes</h4></a>
+            <div class="rating"></div>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <p>$40.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/Asym Strap Sports Bra.png">
+            <h4>Asym Sportsbra</h4>
+            <div class="rating"></div>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <p>$39.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/pullover.png">
+            <h4>Sporty Pullover</h4>
+            <div class="rating"></div>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <p>$35.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/shorts.png">
+            <h4>Brown Gazelle shorts</h4>
+            <div class="rating"></div>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <p>$30.00</p>
+        </div>
+    </div>
+    <h2 class="title">Latest Products</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="images/THE LETICIA SET .png">
+            <h4>LETICIA SET</h4>
+            <div class="rating"></div>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/Rise Crop Hoodie .png">
+            <h4>Rise Crop Hoodie</h4>
+            <div class="rating"></div>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <p>$42.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/Fisdy Track Pants .png">
+            <h4>Fisdy Track pant</h4>
+            <div class="rating"></div>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <p>$39.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/Sporty Purple shoes.png">
+            <h4>Cloud X  3 AD Shoes</h4>
+            <div class="rating"></div>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <p>$49.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/Yoga Pants & Crop Top.png">
+            <h4>Brown Yoga Set</h4>
+            <div class="rating"></div>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <p>$35.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/nike shoes.png">
+            <h4>Nike Metcon 5 Shoes</h4>
+            <div class="rating"></div>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <p>$20.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/ash gray set.png">
+            <h4>Ash Gray Set</h4>
+            <div class="rating"></div>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <p>$55.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/ECHT Gym  pants.png">
+            <h4>ECHT Gym Pants</h4>
+            <div class="rating"></div>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <p>$35.00</p>
+        </div>
+        <!------------------offer---------------------------->
+        <div class="offer">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-2">
+                    <img src="images/smart band1.png">
+                    </div>
+                    <div class="col-2">
+                     <p>Exclusively Avaliable On E-Commerce</p>
+                     <h1>Smart Band 5</h1>
+                     <small> Mi Smart Band 5
+
+                        Your journey to fitness begins . With 6 workout modes <br>to choose from, your every activity is tracked with
+                         accurate data reports <br>for you to study and further your improve your regimen. These activities <br> include pool swimming, outdoor running, cycling, treadmill, exercise and <br> walking.
+                          The key improvement in pool swimming allows you to track laps, <br> strokes and distance.
+                        
+                        
+                        
+                        It’s time to get fit with the Mi Smart Band 5!</small>
+                        <br>
+                        <a href="" class="btn">Buy Now &#8594</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!---------------testimonia ---------------->
+<div class="testimonial">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <i class="fa-solid fa-quote-left"></i>
+                <p>Just received my order & am thrilled with everything I purchased! <br>and the shipping was awesome it took 3 days best yet! i will shop again thanks you.</p>
+                <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <img src="images/review1.png">
+                <h3>Lara Jean</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa-solid fa-quote-left"></i>
+                <p>I absolutely adore the trendy styles this store offers. The clothes fit so well and they look amazing.<br> I really appreciate this option and the quality of the goods is so great.</p>
+                <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <img src="images/review2.png">
+                <h3>Professor</h3>
+            </div> 
+            <div class="col-3">
+                <i class="fa-solid fa-quote-left"></i>
+                <p>Appreciate the interface and ease of set-up (even for someone who had very little prior experience).<br> I've received some great complements from others who are using the site</p>
+                <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <img src="images/review3.png">
+                <h3>Radha</h3>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------------brands--------------------->
+<div class="brands">
+    <div class="small-container">
+        <div class="row">
+        <div class="col-5">
+            <img src="images/Amazon.png">
+        </div>
+        <div class="col-5">
+            <img src="images/pumalogo.png">
+        </div>
+        <div class="col-5">
+            <img src="images/kipstalogo.png"> 
+        </div>
+        <div class="col-5">
+            <img src="images/nikelogo.png">
+        </div>
+        <div class="col-5">
+            <img src="images/adidaslogo.png">
+        </div>
+        </div>
+    </div>
+    
+<!--------------------footer--------------------->
+<footer class="footer">
+    <div class="footer-col">
+        <h3>Get to Know Us</h3>
+        <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Press Releases</a></li>
+            <li><a href="#">Amazon Cares</a></li>
+        </ul>
+    </div>
+    <div class="footer-col">
+        <h3>Connect with Us</h3>
+        <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+        </ul>
+    </div>
+    <div class="footer-col">
+        <h3>Make Money with Us</h3>
+        <ul>
+            <li><a href="#">Sell on Amazon</a></li>
+            <li><a href="#">Sell under Amazon Accelerator</a></li>
+            <li><a href="#">Become an Affiliate</a></li>
+            <li><a href="#">Advertise Your Products</a></li>
+        </ul>
+    </div>
+    <div class="footer-col footer-col-2">
+        <img src="images/logo2.png" alt="Logo">
+    </div>
+    <hr>
+    <div class="copyright">
+        <p>&copy; 2024 Leisure. All rights reserved.</p>
+    </div>
+</footer>
+<!-------------------js for toggle menu----------->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+    function menutoggle(){
+        if (MenuItems.style.maxHeight == "0px")
+         {
+        MenuItems.style.maxHeight = "200px";
+         }
+    else 
+    {
+        MenuItems.style.maxHeight = "0px";
+    }       
+        
+    }
+</script>
+   </body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> All Products- Leisure </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/aaeb72b20a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" width="125px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="productcart.html"><img src="images/cartbag.png" width="30px" height="30px"></a>
+            <img src="images/menu.png" class="menu-icon" 
+            onclick="menutoggle()">
+        </div>
+        
+    </div>
+  
+ <div class="small-container">
+    <div class="row row-2">
+        <h2>All Products</h2>
+        <select>
+            <option >Default Sorting</option>
+            <option >Sort by Price</option>
+            <option >Sort by Popularity </option>
+            <option >Sort by rating</option>
+            <option >Sort by sale</option>
+        </select>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <img src="images/Asym Strap Sports Bra.png">
+            <h4>Asym Strap Sportsbra</h4>
+            <div class="rating"></div>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <p>$39.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/Sporty Purple shoes.png">
+            <h4>Cloud X  3 AD Shoes</h4>
+            <div class="rating"></div>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <p>$40.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/pullover.png">
+            <h4>Sporty Pullover</h4>
+            <div class="rating"></div>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <p>$35.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/shorts.png">
+            <h4>Brown Gazelle shorts</h4>
+            <div class="rating"></div>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <p>$30.00</p>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/THE LETICIA SET .png">
+                <h4>LETICIA SET</h4>
+                <div class="rating"></div>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/Rise Crop Hoodie .png">
+                <h4>Rise Crop Hoodie</h4>
+                <div class="rating"></div>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <p>$42.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/Fisdy Track Pants .png">
+                <h4>Fisdy Track pant</h4>
+                <div class="rating"></div>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <p>$39.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/Reebok Shoes .png">
+                <h4>Reebok Cream Shoes</h4>
+                <div class="rating"></div>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <p>$40.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/Yoga Pants & Crop Top.png">
+                <h4>Brown Yoga Set</h4>
+                <div class="rating"></div>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <p>$35.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/nike shoes.png">
+                <h4>Nike Metcon 5 Shoes</h4>
+                <div class="rating"></div>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <p>$20.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/ash gray set.png">
+                <h4>Ash Gray Set</h4>
+                <div class="rating"></div>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <p>$55.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/ECHT Gym  pants.png">
+                <h4>ECHT Gym Pants</h4>
+                <div class="rating"></div>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <p>$35.00</p>
+            </div>
+            <div class="page-btn">
+                <span>1</span>
+                <span>2</span>
+                <span>3</span>
+                <span>4</span>
+                <span>&#8594;</span>
+            </div>
+    </div>
+   
+<!--------------------footer--------------------->
+<footer class="footer">
+    <div class="footer-col">
+        <h3>Get to Know Us</h3>
+        <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Press Releases</a></li>
+            <li><a href="#">Amazon Cares</a></li>
+        </ul>
+    </div>
+    <div class="footer-col">
+        <h3>Connect with Us</h3>
+        <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+        </ul>
+    </div>
+    <div class="footer-col">
+        <h3>Make Money with Us</h3>
+        <ul>
+            <li><a href="#">Sell on Amazon</a></li>
+            <li><a href="#">Sell under Amazon Accelerator</a></li>
+            <li><a href="#">Become an Affiliate</a></li>
+            <li><a href="#">Advertise Your Products</a></li>
+        </ul>
+    </div>
+    <div class="footer-col footer-col-2">
+        <img src="images/logo2.png" alt="Logo">
+    </div>
+    <hr>
+    <div class="copyright">
+        <p>&copy; 2024 Leisure. All rights reserved.</p>
+    </div>
+</footer>
+<!-------------------js for toggle menu----------->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+    function menutoggle(){
+        if (MenuItems.style.maxHeight == "0px")
+         {
+        MenuItems.style.maxHeight = "200px";
+         }
+    else 
+    {
+        MenuItems.style.maxHeight = "0px";
+    }       
+        
+    }
+</script>
+   </body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products Details- Leisure </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/aaeb72b20a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" width="125px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="productcart.html"><img src="images/cartbag.png" width="30px" height="30px"></a>
+        
+            <img src="images/menu.png" class="menu-icon" 
+            onclick="menutoggle()">
+        </div>
+    </div>
+<!------------single product detail----------->
+
+<div class="small-container single-product">
+    <div class="row">
+        <div class="col-2">
+            <img src="images/Reebok Shoes .jpeg"  width="100%">
+        </div>
+        <div class="col-2">
+            <p> Home / Shoes</p>
+            <h1>Cream Maroon Shoes by Reebok</h1>
+            <h4>$40.00</h4>
+            <select>
+                <option>Select Size</option>
+              <option>4</option>
+              <option>5</option>
+              <option>6</option>
+              <option>7</option>
+              <option>8</option>
+            </select>
+            <input type="number" value="1">
+            <a href="" class="btn">Add to Cart</a>
+            <a href="" class="btn">Buy Now</a>
+            <h3> Product Details<i class="fa-solid fa-indent"></i></h3>
+            <br>
+            <p>Reebok Cross Training Shoes in cream/Tan with Maroon line.These are especailly made for running. </p>
+        </div>        
+    </div>
+</div>
+<!------title------->
+<div class="small-container">
+   <div class="row row-2">
+    <h2>Related Product</h2>
+    <p>View More</p>
+
+   </div> 
+</div>
+
+
+
+
+
+
+<div class="small-container">
+    <div class="row">
+        
+            <div class="col-4">
+                <img src="images/Yoga Pants & Crop Top.png">
+                <h4>Brown Yoga Set</h4>
+                <div class="rating"></div>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <p>$35.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/nike shoes.png">
+                <h4>Nike Metcon 5 Shoes</h4>
+                <div class="rating"></div>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <p>$20.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/ash gray set.png">
+                <h4>Ash Gray Set</h4>
+                <div class="rating"></div>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <p>$55.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/ECHT Gym  pants.png">
+                <h4>ECHT Gym Pants</h4>
+                <div class="rating"></div>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <p>$35.00</p>
+            </div>
+            
+    </div>
+  </div> 
+<!--------------------footer--------------------->
+<footer class="footer">
+    <div class="footer-col">
+        <h3>Get to Know Us</h3>
+        <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Press Releases</a></li>
+            <li><a href="#">Amazon Cares</a></li>
+        </ul>
+    </div>
+    <div class="footer-col">
+        <h3>Connect with Us</h3>
+        <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+        </ul>
+    </div>
+    <div class="footer-col">
+        <h3>Make Money with Us</h3>
+        <ul>
+            <li><a href="#">Sell on Amazon</a></li>
+            <li><a href="#">Sell under Amazon Accelerator</a></li>
+            <li><a href="#">Become an Affiliate</a></li>
+            <li><a href="#">Advertise Your Products</a></li>
+        </ul>
+    </div>
+    <div class="footer-col footer-col-2">
+        <img src="images/logo2.png" alt="Logo">
+    </div>
+    <hr>
+    <div class="copyright">
+        <p>&copy; 2024 Leisure. All rights reserved.</p>
+    </div>
+</footer>
+<!-------------------js for toggle menu----------->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+    function menutoggle(){
+        if (MenuItems.style.maxHeight == "0px")
+         {
+        MenuItems.style.maxHeight = "200px";
+         }
+    else 
+    {
+        MenuItems.style.maxHeight = "0px";
+    }       
+        
+    }
+</script>
+
+
+   </body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - Leisure </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/aaeb72b20a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" width="125px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="productcart.html"><img src="images/cartbag.png" width="30px" height="30px"></a>
+            
+            <img src="images/menu.png" class="menu-icon" 
+            onclick="menutoggle()">
+        </div>
+    </div>
+
+<!--------------------cart item details--------------------->
+<div class="small-container cart-page">
+    <table>
+        <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Subtotal</th>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="images/THE LETICIA SET .png">
+                    <div>
+                        <p>LETICIA SET</p>
+                        <small>Price: $50.00</small>
+                        <br>
+                        <a href="">Remove</a>
+                    </div>
+
+                </div>
+            </td>
+    
+            <td><input type="number" value="1"></td>
+            <td>$50.00</td>
+</tr>
+<tr>
+    <td>
+        <div class="cart-info">
+            <img src="images/Asym Strap Sports Bra.png">
+            <div>
+                <p>Asym Sports Bra</p>
+                <small>Price: $39.00</small>
+                <br>
+                <a href="">Remove</a>
+            </div>
+
+        </div>
+    </td>
+
+    <td><input type="number" value="1"></td>
+    <td>$50.00</td>
+</tr>
+<tr>
+    <td>
+        <div class="cart-info">
+            <img src="images/Sporty Purple shoes.png">
+            <div>
+                <p>Cloud X 3 AD</p>
+                <small>Price: $40.00</small>
+                <br>
+                <a href="">Remove</a>
+            </div>
+
+        </div>
+    </td>
+
+    <td><input type="number" value="1"></td>
+    <td>$50.00</td>
+</tr>
+    </table>
+    <div class="total-price">
+        <table>
+            <tr>
+            <td>Subtotal</td>
+            <td>$129.00</td>
+            </tr>
+            <tr>
+            <td>Tax</td>
+            <td>$31.00</td>
+            </tr>
+            <tr>
+            <td>Total</td>
+            <td>$160.00</td>
+            </tr>
+           
+                
+
+        </table>
+    </div>
+</div>
+
+
+
+
+<!--------------------footer--------------------->
+<footer class="footer">
+    <div class="footer-col">
+        <h3>Get to Know Us</h3>
+        <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Press Releases</a></li>
+            <li><a href="#">Amazon Cares</a></li>
+        </ul>
+    </div>
+    <div class="footer-col">
+        <h3>Connect with Us</h3>
+        <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+        </ul>
+    </div>
+    <div class="footer-col">
+        <h3>Make Money with Us</h3>
+        <ul>
+            <li><a href="#">Sell on Amazon</a></li>
+            <li><a href="#">Sell under Amazon Accelerator</a></li>
+            <li><a href="#">Become an Affiliate</a></li>
+            <li><a href="#">Advertise Your Products</a></li>
+        </ul>
+    </div>
+    <div class="footer-col footer-col-2">
+        <img src="images/logo2.png" alt="Logo">
+    </div>
+    <hr>
+    <div class="copyright">
+        <p>&copy; 2024 Leisure. All rights reserved.</p>
+    </div>
+</footer>
+<!-------------------js for toggle menu----------->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+    function menutoggle(){
+        if (MenuItems.style.maxHeight == "0px")
+         {
+        MenuItems.style.maxHeight = "200px";
+         }
+    else 
+    {
+        MenuItems.style.maxHeight = "0px";
+    }       
+        
+    }
+</script>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account - Leisure </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/aaeb72b20a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" width="125px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="productcart.html"><img src="images/cartbag.png" width="30px" height="30px"></a>
+           
+            <img src="images/menu.png" class="menu-icon" 
+            onclick="menutoggle()">
+        </div>
+    </div>
+
+<!--------------------account--------------------->
+<div class="account-page">
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+              <img src="images/woman bg.png" width="100%">  
+            </div>
+            <div class="col-2">
+                <div class="form-container">
+                    <div class="form-btn">
+                        <span onclick="login()">Login</span>
+                        <span onclick="register()">Register</span>
+                        <hr id="Indicator">
+                    </div>
+
+                    <form  id="LoginForm">
+                        <input type="text" placeholder="Username">
+                        <input type="password" placeholder="Password">
+                        <button type="submit" class="btn">Login</button>
+                        <a href="">Forgot Password</a>
+                    </form>
+
+
+                    <form id="RegForm">
+                        <input type="text" placeholder="Username">
+                        <input type="email" placeholder="Email">
+                        <input type="password" placeholder="Password">
+                        <button type="submit" class="btn">Register</button>
+                        
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--------------------footer--------------------->
+<footer class="footer">
+    <div class="footer-col">
+        <h3>Get to Know Us</h3>
+        <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Press Releases</a></li>
+            <li><a href="#">Amazon Cares</a></li>
+        </ul>
+    </div>
+    <div class="footer-col">
+        <h3>Connect with Us</h3>
+        <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+        </ul>
+    </div>
+    <div class="footer-col">
+        <h3>Make Money with Us</h3>
+        <ul>
+            <li><a href="#">Sell on Amazon</a></li>
+            <li><a href="#">Sell under Amazon Accelerator</a></li>
+            <li><a href="#">Become an Affiliate</a></li>
+            <li><a href="#">Advertise Your Products</a></li>
+        </ul>
+    </div>
+    <div class="footer-col footer-col-2">
+        <img src="images/logo2.png" alt="Logo">
+    </div>
+    <hr>
+    <div class="copyright">
+        <p>&copy; 2024 Leisure. All rights reserved.</p>
+    </div>
+</footer>
+<!-------------------js for toggle menu----------->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+    function menutoggle(){
+        if (MenuItems.style.maxHeight == "0px")
+         {
+        MenuItems.style.maxHeight = "200px";
+         }
+    else 
+    {
+        MenuItems.style.maxHeight = "0px";
+    }       
+        
+    }
+</script>
+
+<!-------------------js for toggle form----------->
+<script>
+    var LoginForm = document.getElementById("LoginForm");
+    var RegForm = document.getElementById("RegForm");
+    var Indicator = document.getElementById("Indictor");
+    function register(){
+        RegForm.style.transform = "translateX(0px)";
+        LoginForm.style.transform = "translateX(0px)";
+        Indicator.style.transform = "translateX(100px)";
+    }
+
+    function login(){
+        RegForm.style.transform = "translateX(300px)";
+        LoginForm.style.transform = "translateX(300px)";
+        Indicator.style.transform = "translateX(0px)";
+    }
+</script>
+
+</body>
+</html>
+
+
+
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'popppins' , 'sens-serrif';
+   
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style: none ;
+}
+nav ul li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #555;
+}
+p{
+    color: #0c0c0c;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col-2 img{
+    max-width: 100%;
+    padding: 50px  0;
+  
+}
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+.btn{
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+.btn:hover{
+    background: #563434;
+}
+.header{
+    background: linear-gradient(#fff, purple);
+}
+.header .row{
+    margin-top: 70px;
+}
+.categories{
+    margin: 70px 0;
+}
+.col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+.col-3 img{
+    width: 100%;
+    height: 400px;
+}
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.col-4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+.col-4 img{
+    width: 100%;
+    height: 350px;
+}
+.title{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+.title::after{
+    content: '';
+    background: #ff523b;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+h4{
+    color: #555;
+    font-weight: normal;
+}
+.col-4 p{
+    font-size: 14px;
+}
+.rating .fas{
+    color: #f45843;
+}
+.col-4:hover{
+    transform: translateY(-5px);
+}
+
+/*-----------------offer----------------------*/
+.offer{
+    background: radial-gradient(#fff,rgba(236, 124, 44, 0.4));
+    margin-top: 80px;
+    padding: 30px 0;
+}
+.col-2 .offer-img{
+    padding: 50px;
+}
+small{
+    color: #555;
+}
+/*------------------testimonial-----------------*/
+.testimonial{
+    padding: 100px;
+}
+.testimonial .col-3{
+    text-align: center; 
+    padding: 40px 30px;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.testimonial .col-3 img{
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+    height: 50px;
+}
+.testimonial .col-3:hover{
+  transform: translateY(-10px);
+       
+}
+.fa.fa-quote-left{
+    font-size: 34px;
+    color: #f86450;
+}
+.col-3 p{
+    font-size: 12px;
+    margin: 12px 0;
+    color: #777;
+}
+.testimonial .col-3 h3{
+    font-weight: 600;
+    color: #555;
+    font-size: 16px;
+}
+/*--------------brands--------------------*/
+.brands{
+    margin: 20px auto;
+}
+.col-5{
+     width: 160px;
+}
+.col-5 img{
+    width: 100%;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+.col-5 img:hover{
+    filter: grayscale(0);
+}
+/*------------------footer---------------*/
+
+.footer {
+    background: black;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+}
+
+.footer-columns {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.footer-col {
+    flex: 1;
+    min-width: 200px;
+    padding: 10px;
+}
+
+.footer-col h3 {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.footer-col ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-col ul li {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-logo {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.footer-logo img {
+    max-width: 100px;
+}
+
+.footer hr {
+    border: none;
+    background: #666666;
+    height: 1px;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.copyright {
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 20px;
+}
+.copyright{
+text-align: center;
+}
+.menu-icon{
+    width: 28px;
+    margin-left: 20px;
+    display: none;
+}
+
+/*-------------media query for menu -----------*/
+@media only screen and (max-width: 800px ){
+   
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: #333;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5;
+    }
+    nav ul li{
+        display: block;
+        margin-right: 100px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        }
+    nav ul li a{
+        color: #fff;
+    }  
+    .menu-icon{
+
+        display: block;
+        cursor: pointer;
+    }   
+}
+/*---------------all products page-----------*/
+.row-2{
+    justify-content: space-between;
+    margin: 100px auto 50px;
+}
+select{
+    border: 1px solid #ff523b ;
+    padding: 5px;
+}
+select:focus{
+    outline: none;
+}
+.page-btn{
+    margin: 0 auto 80px;
+}
+.page-btn span{
+   display: inline-block;
+   border: 1px solid #f95843; 
+   margin-left: 10px;
+   width: 40px;
+   height: 40px;
+   text-align: center;
+   line-height: 40px;
+   cursor: pointer;
+}
+.page-btn span:hover{
+    background: #ff523b;
+    color: white;
+}
+/*------------single product detail-----------*/
+
+.single-product{
+    margin-top: 80px;
+    display:flex ;
+    flex-basis: 50%;
+}
+.single-product .col-2 img{
+    padding: 0;
+
+}
+.single-product .col-2 {
+    padding: 20px;
+}
+.single-product h4{
+
+    margin: 20px 0;
+    font-size: 22px;
+    font-weight: bold; 
+    
+}
+.single-product  select{
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+}
+.single-product a{
+    background-color: #f73b3b;
+}
+.single-product input{
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+    border: 1px solid #ff523b;
+
+}
+input:focus{
+    outline: none;
+}
+.single-product .fa{
+    color: #ff523b;
+    margin-left: 20px;
+}
+/*-----------cart item-----------*/
+.cart-page{
+    margin: 80px auto;
+
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.cart-info{
+   display: flex;
+   flex-wrap: wrap; 
+}
+
+th{
+  text-align: left;
+  padding: 5px;
+  color: #fff;
+  background: #ff523b;  
+  font-weight: normal;
+}
+td{
+    padding: 10px 5px;
+}
+td input{
+   width: 40px;
+   height: 30px;
+   padding: 5px; 
+}
+
+td a{
+    color: #ff523b;
+    font-size: 12px;
+}
+td img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+.total-price{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.total-price table{
+    border-top: 3px solid #ff523b;
+    width: 100%;
+    max-width: 400px;
+}
+td:last-child{
+    text-align: right;
+}
+th:last-child{
+    text-align: right;
+}
+
+/*-----------account page-----------*/
+.account-page{
+    padding: 50px 0;
+    background: linear-gradient(#fff, purple);
+}
+.form-container{
+    background: #fff;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    margin: auto;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+
+}
+.form-container span{
+    font-weight: bold;
+    padding: 0 10px;
+    color: #555;
+    cursor: pointer;
+    width: 100px;
+    display: inline-block;
+
+}
+.form-btn{
+    display: inline-block;
+}
+.form-container form{
+    max-width: 300px;
+    padding: 0 20px;
+   position: absolute;
+    top: 130px;
+    transition: transform 1s;
+
+}
+form input{
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+}
+form .btn{
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+
+}
+form .btn:focus{
+    outline: none;
+
+}
+#LoginForm{
+    left: -300px;
+}
+#RegForm{
+    left: 0;
+}
+form a{
+    font-size: 12px;
+}
+#Indicator{
+    width: 100px;
+    border: none;
+    background: #ff523b;
+    height: 3px;
+    margin-top: 8px;
+    transform: translateX(100px);
+    transition: transform 1s;
+}
+
+
+
+
+
+
+
+
+
+/*-------------media query for less than 600px -----------*/
+@media only screen and (max-width: 600px ){
+    .row{
+        text-align: center;
+    }
+    .col-2, .col-3, .col-4{
+        flex-basis: 100%;
+    }
+    .single-product .row{
+        text-align: left;
+    }
+    .single-product .col-2{
+        padding: 20px 0;
+    }
+    .single-product h1{
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .cart-info p{
+        display: none;
+    }
+}
